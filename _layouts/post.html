@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+
+  <div class="post-tags">
+  {% raw %}
+    {% for tag in page.tags %}
+      <a href="/TIL/tags/#{{ tag }}">#{{ tag }}</a>
+    {% endfor %}
+  {% endraw %}
+  </div>
+</article>
