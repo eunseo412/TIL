@@ -4,7 +4,6 @@ title: Tags
 permalink: /tags/
 ---
 
-{% raw %}
 {% for tag in site.tags %}
 <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
 <ul>
@@ -15,4 +14,3 @@ permalink: /tags/
   {% endfor %}
 </ul>
 {% endfor %}
-{% endraw %}
