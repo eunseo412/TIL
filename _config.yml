@@ -1,6 +1,6 @@
-title: Eunseo's TIL
-description: Today I Learned
+title: Eunseo Archive
+description: Loading Eunseo...
 theme: minima
-baseurl: "/TIL"
+baseurl: ""
 future: true
 permalink: /:categories/:year/:month/:day/:title/
