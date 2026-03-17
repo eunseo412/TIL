@@ -1,0 +1,3 @@
+ERROR: failed login
+INFO: success login
+ERROR: database down
