@@ -3,3 +3,4 @@ description: Today I Learned
 theme: minima
 baseurl: "/TIL"
 future: true
+permalink: /:categories/:year/:month/:day/:title/
